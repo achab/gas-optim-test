@@ -45,14 +45,6 @@ contract B {
         return computeFromA(addr, 1);
     }
 
-    function compute_10() public returns (uint256) {
-        return compute(10);
-    }
-
-    function computeFromA_10(address addr) public returns (uint256) {
-        return computeFromA(addr, 10);
-    }
-
     function compute_100() public returns (uint256) {
         return compute(100);
     }
